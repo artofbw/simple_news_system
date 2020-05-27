@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Add article</title>
+</head>
+
+<body>
+<div class="container">
+    <form method="POST" action="index.php">
+        <div class="form-group">
+            <label for="title">Tytuł</label>
+            <input class="form-control" id="title" name="title" placeholder="Wprowadź tytuł">
+        </div>
+        <div class="form-group">
+            <label for="short-description">Krótki opis</label>
+            <input type="text" class="form-control" name="short-description" id="short-description" placeholder="Wprowadź krótki opis">
+        </div>
+        <div class="form-group">
+            <label for="description">Opis</label>
+            <textarea class="form-control" name="description" rows="3" id="description"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Wyślij</button>
+    </form>
+</div>
+
+</body>
+
+</html>
+
